@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+}
+.profile{
+    border-radius: 50%;
+
+    margin-bottom: 50px;
+    
+}
+#welcome{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(to right,#64dfdf,#72efdd);
+    display: table;
+}
+#name{
+    font-family: "Source Code Pro",cursive;
+}
+.menu{
+    position: fixed;
+    background:white;
+    width: 100%;
+    top: 0px;
+    right: 30px;
+    padding-top: 20px;
+    height: 50px;
+    z-index: 10;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+        
+}
+.links:hover{
+    font-size: 25px;
+    background-color:cyan;
+}
+a{
+    text-decoration: none;
+    color: firebrick;
+    text-shadow: 2px 2px gainsboro;
+}
+#contact{
+    background-image: radial-gradient(red 0% ,green 100%);
+}
